@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoebe's World!</title>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('images1/stardewbackground.png'); /* 设置图片路径 */
+            background-size: cover; /* 确保图片覆盖整个页面 */
+            background-repeat: no-repeat; /* 避免图片重复 */
+            background-position: center center; /* 图片居中显示 */
+            margin: 0; /* 去掉默认边距 */
+            height: 100vh; /* 设置页面高度为视口高度 */
+        }
+    </style>
+</head>
+<body>
+    <script>
+        window.onload = function() {
+            alert("欢迎来到Phoebe的网页！在浏览此网页时请将页面缩放调整为100%");  // 打开网页时弹出提示框
+        }
+    </script>
+    <img src="images1/title.png" alt="StardewValley" class="top-left-image">
+    <img src="images1/house.png" alt="house" class="bottom-right-image">
+    <img src="images1/chinesetitle_ZH.png" alt="Ctitle" class="top-right-image">
+    <div class="container">
+        <!-- 左下方的人物信息框 -->
+        <div class="infobox">
+            <table>
+                <tr>
+                    <td colspan="2" class="header">菲比</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="image-container">
+                        <img src="images1/phoebe.png" width="95" height="auto" alt="Phoebe">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="section-title">信息</td>
+                </tr>
+                <tr>
+                    <td class="label">生日</td>
+                    <td class="detail"><img src="https://stardewvalleywiki.com/mediawiki/images/9/9c/Spring.png" alt="Spring" width="24"> 春季 3月28日</td>
+                </tr>
+                <tr>
+                    <td class="label">年龄</td>
+                    <td class="detail">20</td>
+                </tr>
+                <tr>
+                    <td class="label">性别</td>
+                    <td class="detail">女</td>
+                </tr>
+                <tr>
+                    <td class="label">居住于</td>
+                    <td class="detail">武汉市</td>
+                </tr>
+                <tr>
+                    <td class="label">详细地址</td>
+                    <td class="detail">华中师范大学</td>
+                </tr>
+                <tr>
+                    <td class="label">就读专业</td>
+                    <td class="detail">计算机科学与技术</td>
+                </tr>
+                <tr>
+                    <td class="label">喜欢的东西</td>
+                    <td class="detail">
+                        <img src="images1/computer.png" alt="coding" width="24"> 编程<br>
+                        <img src="images1/music.png" alt="music" width="24"> 音乐<br>
+                        <img src="images1/cat.png" alt="cat" width="24"> 小猫<br>
+                        <img src="images1/photo.png" alt="photo" width="24"> 摄影
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- 右侧的相册 -->
+        <div class="photo-gallery">
+            <div class="gallery-title">菲比的一天</div>
+            <div class="photos">
+                <img src="images1/cultivating.png" alt="钓鱼！" class="photo">
+                <img src="images1/fishing.png" alt="活动2" class="photo">
+                <img src="images1/chatting.png" alt="活动3" class="photo">
+                <img src="images1/digging.png" alt="活动4" class="photo">
+            </div>
+        </div>
+          <!-- 邮件按钮 -->
+          <a href="mailto:your-email@example.com?subject=%E4%BD%A0%E5%A5%BD%EF%BC%81&body=%E6%88%91%E4%BB%AC%E4%BA%A4%E6%9C%8B%E5%8F%8B%E5%90%A7%EF%BC%81
+          " class="mail-btn">点击这里联系我吧！</a>
+    </div>
+</body>
+</html>
+
+
